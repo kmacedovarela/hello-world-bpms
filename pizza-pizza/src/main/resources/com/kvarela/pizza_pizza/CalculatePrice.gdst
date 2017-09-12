@@ -9,7 +9,20 @@
     <width>-1</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols/>
+  <attributeCols>
+    <attribute-column52>
+      <typedDefaultValue>
+        <valueString>calculate-price</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <attribute>ruleflow-group</attribute>
+      <reverseOrder>false</reverseOrder>
+      <useRowNumber>false</useRowNumber>
+    </attribute-column52>
+  </attributeCols>
   <conditionPatterns/>
   <actionCols/>
   <auditLog>
