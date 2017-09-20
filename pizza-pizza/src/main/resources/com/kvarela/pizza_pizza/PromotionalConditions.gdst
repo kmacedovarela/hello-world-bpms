@@ -129,7 +129,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Vegetarian</valueString>
+        <valueString>vegetarian</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
