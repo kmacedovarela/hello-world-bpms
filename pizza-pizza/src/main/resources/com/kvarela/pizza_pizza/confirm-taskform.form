@@ -48,14 +48,14 @@
 <property name="outputBinding" value="order/discount"/>
 <property name="fieldClass" value="java.lang.Double"/>
 </field>
-<field position="5" name=":decorator_1" type="HTMLLabel" id="1520766593">
+<field position="6" name=":decorator_1" type="HTMLLabel" id="1520766593">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;dequot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;enquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;esquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;frquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;jaquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;ptquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;quot;zhquot;,quot;&lt;p&gt;&lt;strong&gt;Register customer answer:&lt;/strong&gt;&lt;/p&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
-<field position="6" name="confirmed" type="CheckBox" id="87287174">
+<field position="5" name="confirmed" type="CheckBox" id="87287174">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Order confirmed?quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
