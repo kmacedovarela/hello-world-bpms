@@ -93,5 +93,14 @@ public class Order implements java.io.Serializable
       this.time = time;
       this.discount = discount;
    }
+   
+   public String toString(){
+       return "address: "+ this.address+
+       "flavor: "+ this.flavor+
+       "phone: "+this.phone+
+       "price: "+this.price+
+       "time: "+this.time+
+       "discount: "+this.discount;
+   }
 
 }
