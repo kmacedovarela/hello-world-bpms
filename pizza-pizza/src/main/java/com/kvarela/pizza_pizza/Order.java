@@ -13,8 +13,10 @@ public class Order implements java.io.Serializable
    private java.lang.String flavor;
    private java.lang.String phone;
    private java.lang.Double price;
-   @org.kie.api.definition.type.Label(value = "Time in minutes")
+   @org.kie.api.definition.type.Label("Time in minutes")
    private java.lang.Integer time;
+
+   private java.lang.Double discount;
 
    public Order()
    {
@@ -70,15 +72,26 @@ public class Order implements java.io.Serializable
       this.time = time;
    }
 
+   public java.lang.Double getDiscount()
+   {
+      return this.discount;
+   }
+
+   public void setDiscount(java.lang.Double discount)
+   {
+      this.discount = discount;
+   }
+
    public Order(java.lang.String address, java.lang.String flavor,
-         java.lang.String phone, java.lang.Double price,
-         java.lang.Integer time)
+         java.lang.String phone, java.lang.Double price, java.lang.Integer time,
+         java.lang.Double discount)
    {
       this.address = address;
       this.flavor = flavor;
       this.phone = phone;
       this.price = price;
       this.time = time;
+      this.discount = discount;
    }
 
 }
