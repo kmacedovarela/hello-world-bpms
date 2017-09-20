@@ -207,7 +207,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>&lt;otherwise&gt;</valueString>
+        <valueString>mixed</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
