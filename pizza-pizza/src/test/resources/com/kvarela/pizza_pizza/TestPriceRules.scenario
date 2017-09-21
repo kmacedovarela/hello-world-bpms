@@ -18,12 +18,17 @@
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
       <name>calculate-price</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>54</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>price</fieldName>
-          <expected>30</expected>
+          <expected>20</expected>
+          <successResult>true</successResult>
+          <explanation>[order] field [price] was [30].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -32,6 +37,7 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-09-21 15:55:35.686 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>com.kvarela.pizza_pizza</packageName>
