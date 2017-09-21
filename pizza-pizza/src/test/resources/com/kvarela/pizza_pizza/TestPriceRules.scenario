@@ -15,6 +15,9 @@
       <name>order</name>
       <isModify>false</isModify>
     </fact-data>
+    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
+      <name>calculate-price</name>
+    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace/>
     <expect-fact>
       <fieldValues>
@@ -22,7 +25,7 @@
           <fieldName>price</fieldName>
           <expected>30</expected>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>order</name>
@@ -30,7 +33,7 @@
     </expect-fact>
   </fixtures>
   <rules/>
-  <inclusive>false</inclusive>
+  <inclusive>true</inclusive>
   <packageName>com.kvarela.pizza_pizza</packageName>
   <imports>
     <imports/>
